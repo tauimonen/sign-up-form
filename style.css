@@ -5,7 +5,7 @@
 }
 
 :root {
-    --clr-primary: #F70058;
+    --clr-primary: whitesmoke;
     --clr-dark: #0C0E36;
     --clr-light: #FFF;
     --fw-normal: 400;
@@ -21,6 +21,11 @@ body {
     color: var(--clr-dark);
     line-height: 1.6;
     background: gray;
+ }
+
+ @font-face {
+   font-family: odinFont;
+   src: url(Norse-Bold.otf);
  }
 
  .container {
@@ -53,44 +58,48 @@ body {
     width: 65%;
     height: 100%;
     flex-direction: column;
-    background: green;
  }
 
  .left-up {
-    background: rebeccapurple;
     height: 25%;
     padding: 2rem;
     opacity: 0.01;
  }
 
  .left-center {
-    background: blue;
     height: 15%;
     padding: 2rem;
-    opacity: 0.01;
+    font-family: odinFont;
+    font-size: 42px;
+    opacity: 0.9;
+ }
+
+ h2 {
+   color: var(--clr-light);
+   font-size: 52px;
  }
 
  .left-bottom {
-    background: peru;
     height: 60%;
     padding: 2rem;
     opacity: 0.01;
  }
 
  .right-up {
-    background: yellow;
+    background: var(--clr-primary);
     height: 40%;
     padding: 2rem;
+    padding-top: 7rem;
  }
 
  .right-center {
-    background: red;
+    background: white;
     height: 30%;
     padding: 2rem;
  }
 
  .right-bottom {
-    background: pink;
+    background: var(--clr-primary);
     height: 30%;
     padding: 2rem;
  }
