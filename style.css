@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-primary: #F70058;
+    --clr-dark: #0C0E36;
+    --clr-light: #FFF;
+    --fw-normal: 400;
+    --fw-bold: 700;
+    --fw-black: 900;
+    --grid: 1fr;
+}
+
+body { 
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.125rem;
+    color: var(--clr-dark);
+    line-height: 1.6;
+    background: gray;
+ }
+
+ .container {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background: var(--clr-dark);
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+
+ .child-container-left {
+    display: flex;
+    position: relative;
+    width: 35%;
+    height: 100%;
+    flex-direction: column;
+    background: yellow;
+ }
+
+ .child-container-right {
+    display: flex;
+    position: relative;
+    width: 65%;
+    height: 100%;
+    flex-direction: column;
+    background: green;
+ }
+
+ .left-up {
+    background: rebeccapurple;
+    height: 25%;
+    padding: 2rem;
+ }
+
+ .left-center {
+    background: blue;
+    height: 15%;
+    padding: 2rem;
+ }
+
+ .left-bottom {
+    background: peru;
+    height: 60%;
+    padding: 2rem;
+ }
+
+ .right-up {
+    background: yellow;
+    height: 40%;
+    padding: 2rem;
+ }
+
+ .right-center {
+    background: red;
+    height: 30%;
+    padding: 2rem;
+ }
+
+ .right-bottom {
+    background: pink;
+    height: 30%;
+    padding: 2rem;
+ }
