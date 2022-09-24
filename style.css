@@ -40,7 +40,11 @@ body {
     width: 35%;
     height: 100%;
     flex-direction: column;
-    background: yellow;
+    margin: 0;
+    padding: 0;
+    background: url("hire.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
  }
 
  .child-container-right {
@@ -56,18 +60,21 @@ body {
     background: rebeccapurple;
     height: 25%;
     padding: 2rem;
+    opacity: 0.01;
  }
 
  .left-center {
     background: blue;
     height: 15%;
     padding: 2rem;
+    opacity: 0.01;
  }
 
  .left-bottom {
     background: peru;
     height: 60%;
     padding: 2rem;
+    opacity: 0.01;
  }
 
  .right-up {
