@@ -102,11 +102,31 @@ body {
  .right-center {
     background: white;
     height: 30%;
-    padding: 2rem;
+    padding-left: 2rem;
  }
 
- form {
+ .border-customized-input {
+   border: 2px solid #eee;
+}
+
+label {
+   width: 130px;
+   display: inline-block;
+   padding: 0px;
+   margin: 0;
    font-size: 14px;
+}
+
+input {
+   padding: -20px;
+   margin-left: -20px;
+   font-size: 14px;
+}
+
+.set {
+   width: 90%;
+   display: block;
+   justify-items: space-between;
  }
 
  .right-bottom {
@@ -114,3 +134,28 @@ body {
     height: 30%;
     padding: 2rem;
  }
+
+ .btn {
+   cursor: pointer;
+   display:inline-block;
+   padding: .5em 1.25em;
+   font-size: 1rem;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-decoration: none;
+   font-weight: var(--fw-bold);
+   margin-bottom: .5em;
+   background-color: rgb(50, 143, 230);
+   color: var(--clr-light);
+   border-radius: 5px;
+}
+
+.btn-primary {
+   background-color: blue;
+   color: var(--clr-light);
+}
+
+.btn:hover {
+   background-color: var(--clr-dark);
+}
+
